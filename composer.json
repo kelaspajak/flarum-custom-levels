@@ -8,7 +8,6 @@
         "custom",
         "user"
     ],
-    "version": "0.1.2",
     "type": "flarum-extension",
     "require": {
         "flarum/core": "^1.2.0"
