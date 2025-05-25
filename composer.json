@@ -1,6 +1,14 @@
 {
-    "name": "kelaspajak/flarum-custom-levels",
-    "description": " Flarum Custom Levels, levels can be customized, and can trigger events.",
+    "name": "kelaspajak/flarum-range-levels",
+    "description": "Flarum Custom Levels, levels can be customized, and can trigger events.",
+    "keywords": [
+        "flarum",
+        "extension",
+        "levels",
+        "custom",
+        "user"
+    ],
+    "version": "0.1.2",
     "type": "flarum-extension",
     "require": {
         "flarum/core": "^1.2.0"
@@ -14,9 +22,9 @@
         "flarum-extension": {
             "title": "Custom Levels",
             "icon": {
-                "name": "fa fa-level-up-alt",
-                "backgroundColor": "#68945c",
-                "color": "#fff"
+                "name": "fas fa-sort-numeric-up",
+                "backgroundColor": "#FFC600",
+                "color": "#1E1F24"
             },
             "category": "",
             "optional-dependencies": [
@@ -43,13 +51,6 @@
             }
         }
     },
-    "keywords": [
-        "flarum",
-        "extension",
-        "levels",
-        "custom",
-        "user"
-    ],
     "license": "MIT",
     "authors": [
         {
