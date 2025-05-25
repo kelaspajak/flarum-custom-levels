@@ -1,6 +1,6 @@
 {
     "name": "kelaspajak/flarum-range-levels",
-    "description": "Flarum Custom Levels, levels can be customized, and can trigger events.",
+    "description": "Flarum Range Levels, levels can be customized, and can trigger events.",
     "keywords": [
         "flarum",
         "extension",
@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kelaspajak\\CustomLevels\\": "src/"
+            "Kelaspajak\\RangeLevels\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Custom Levels",
+            "title": "Range Levels",
             "icon": {
                 "name": "fas fa-sort-numeric-up",
                 "backgroundColor": "#FFC600",
@@ -64,7 +64,7 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Kelaspajak\\CustomLevels\\Tests\\": "tests/"
+            "Kelaspajak\\RangeLevels\\Tests\\": "tests/"
         }
     },
     "scripts": {
