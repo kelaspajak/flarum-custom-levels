@@ -23,7 +23,7 @@ foskym-custom-levels:
       0: Never remove exp
       1: When a post/reply is hidden or deleted (default)
       2: When a post/reply is permanently deleted
-    
+
     preview: Preview
 
     pages:
@@ -84,9 +84,10 @@ foskym-custom-levels:
     defaults:
       level: Lv.
       exp: "[expTotal] Exp"
+      tooltip: Exp
     error:
       calculation: The calculation of exp level is wrong.
-    
+
     integrations:
       automoderator:
         metric_name: Exp
